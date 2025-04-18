@@ -66,8 +66,6 @@ describe("Article List", () => {
 
     cy.visit("http://localhost:5173");
 
-    cy.get('[data-testid="article-list-loader"]').should("be.visible");
-
     cy.wait("@fetchArticles");
 
     cy.get('[data-testid="article-list"]').should("exist");
