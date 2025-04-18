@@ -22,7 +22,7 @@ Follow these steps to run the Xische frontend assessment project locally:
 1.  **Clone the Repository:** If you haven't already, clone the project repository to your local machine using Git:
 
     ```bash
-    git clone [https://github.com/Tobbs101/frontend-task.git](https://github.com/Tobbs101/frontend-task.git)
+    git clone `https://github.com/Tobbs101/frontend-task.git`
     ```
 
 2.  **Install Dependencies:** Navigate to the project directory in your terminal and install the required dependencies using Yarn:
