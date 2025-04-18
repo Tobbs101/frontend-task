@@ -1,7 +1,7 @@
 import { formatDate } from "@/lib/utils";
-import { Icon } from "@iconify/react";
 import { ReactNode, useEffect } from "react";
 import { motion } from "framer-motion";
+import { CalendarDays } from "lucide-react";
 
 const PageLayout = ({
   pageTitle = "Untitled",
@@ -25,7 +25,7 @@ const PageLayout = ({
         </div>
 
         <div className="date items-center gap-1 text-[13px] text-[#979797] ml-auto hidden md:flex">
-          <Icon icon="mdi:calendar-month-outline" />
+          <CalendarDays className="w-4" />
           <span>{formatDate(new Date())}</span>
         </div>
       </header>

@@ -3,7 +3,6 @@ import {
   Card,
   CardHeader,
   CardTitle,
-  CardDescription,
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
@@ -27,9 +26,6 @@ const ArticleItem = ({ article }: { article: Article }) => {
           <CardTitle className="text-lg font-semibold text-gray-800">
             {article.title}
           </CardTitle>
-          <CardDescription className="text-sm text-gray-600">
-            {article.abstract}
-          </CardDescription>
         </CardHeader>
       </div>
       <div className="w-full">

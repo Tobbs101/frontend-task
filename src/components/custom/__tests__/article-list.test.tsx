@@ -1,7 +1,7 @@
-import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import ArticleList from "@/components/custom/article-list";
 import { Article } from "@/interfaces";
+import ArticleList from "../article-list";
+import { BrowserRouter } from "react-router-dom";
 
 const articles: Article[] = [
   {
@@ -16,6 +16,6 @@ const articles: Article[] = [
 ];
 
 test("renders articles", () => {
-  render(<ArticleList articles={articles} />);
+  render(<ArticleList articles={articles} />, { wrapper: BrowserRouter });
   expect(screen.getByText("Test Article")).toBeInTheDocument();
 });

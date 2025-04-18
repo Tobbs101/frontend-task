@@ -1,7 +1,7 @@
 import PageLayout from "@/layouts/page-layout";
 import { useLocation, useNavigate } from "react-router-dom";
 import { Article } from "@/interfaces";
-import { Icon } from "@iconify/react/dist/iconify.js";
+import { ArrowRight, ChevronLeft } from "lucide-react";
 
 const ViewArticle = () => {
   const location = useLocation();
@@ -28,7 +28,8 @@ const ViewArticle = () => {
             onClick={handleReturn}
             className="h-[40px] bg-white border border-gray-20 shadow-md hover:shadow-none duration-200 hover:w-[50px] w-[40px] flex items-center justify-center text-gray-600 rounded-full"
           >
-            <Icon icon="lucide:chevron-left" className="w-4" />
+            {/* <Icon icon="lucide:chevron-left" className="w-4" /> */}
+            <ChevronLeft className="w-4" />
           </button>
         </div>
         <div className="max-w-3xl mx-auto p-4">
@@ -52,11 +53,7 @@ const ViewArticle = () => {
             rel="noopener noreferrer"
             className="mt-4 flex items-center justify-start gap-1 text-blue-600 hover:underline"
           >
-            Read full article{" "}
-            <Icon
-              icon="mynaui:arrow-long-right"
-              className="text-[20px] mt-[2px]"
-            />
+            Read full article <ArrowRight className="w-4 mt-[2px]" />
           </a>
         </div>
       </div>
