@@ -22,12 +22,13 @@ Follow these steps to run the Xische frontend assessment project locally:
 1.  **Clone the Repository:** If you haven't already, clone the project repository to your local machine using Git:
 
     ```bash
-    git clone https://github.com/Tobbs101/xische-task.git
+    git clone [https://github.com/Tobbs101/frontend-task.git](https://github.com/Tobbs101/frontend-task.git)
     ```
 
 2.  **Install Dependencies:** Navigate to the project directory in your terminal and install the required dependencies using Yarn:
 
     ```bash
+    cd frontend-task
     yarn install
     ```
 
@@ -37,4 +38,24 @@ Follow these steps to run the Xische frontend assessment project locally:
     yarn dev
     ```
 
-4.  **Open in Your Browser:** Open your web browser and navigate to the address provided in the terminal (usually `http://localhost:5173/`). You should now see the Xische frontend assessment application running in your browser.
+4.  **Open in Your Browser:** Open your web browser and navigate to the address provided in the terminal (usually http://localhost:5173/). You should now see the Xische frontend assessment application running in your browser.
+
+## How to Execute Tests and Get Coverage Reports
+
+This project likely uses Jest and Vitest for testing. Here's how you can typically run tests and generate coverage reports:
+
+1.  **Run Tests:** To execute the unit and integration tests, use the following Yarn command in your terminal (within the project directory):
+
+    ```bash
+    yarn test
+    ```
+
+    This command will run all the test files located in your project (test files for can be found in `src/components/custom/__tests__` directory).
+
+2.  **Generate Coverage Report:** To generate a code coverage report, run the below command in your terminal:
+
+    ```bash
+    yarn test:coverage
+    ```
+
+    After running this command, a `coverage` folder will be created in your project root.
