@@ -52,7 +52,7 @@ To run tests and generate coverage reports:
 
     This command will run all the test files located in your project (test files for can be found in `src/components/custom/__tests__` directory).
 
-    2.  **Run U.I Tests:** To execute the unit and integration tests, use the following Yarn command in your terminal (within the project directory):
+2.  **Run U.I Tests:** To execute the unit and integration tests, use the following Yarn command in your terminal (within the project directory):
 
     ```bash
     npx cypress open
@@ -60,7 +60,7 @@ To run tests and generate coverage reports:
 
     This command will bring up a browser pop-up and you follow the instructions as displayed.
 
-2.  **Generate Coverage Report:** To generate a code coverage report, run the below command in your terminal:
+3.  **Generate Coverage Report:** To generate a code coverage report, run the below command in your terminal:
 
     ```bash
     yarn test:coverage
