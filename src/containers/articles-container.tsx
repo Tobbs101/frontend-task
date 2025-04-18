@@ -27,7 +27,7 @@ class ArticleListContainer extends React.Component<
 
   componentDidMount() {
     fetch(
-      `https://api.nytimes.com/svc/mostpopular/v2/viewed/7.json?api-key=${API_KEY}`
+      `https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=${API_KEY}`
     )
       .then((response) => response.json())
       .then((data) => this.setState({ articles: data.results, loading: false }))

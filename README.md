@@ -1,6 +1,6 @@
-# Frontend Assessment for CredRails
+# Frontend Assessment for Xische
 
-This is the frontend project developed for a CredRails assessment. It leverages React and TypeScript for a robust and maintainable codebase, Vite for a fast development experience, Shadcn UI for pre-styled components, and Tailwind CSS for rapid styling. Key features implemented include user authentication (login/registration), a dashboard, file upload functionality, and file details views.
+This is the frontend project developed for Xische Frontend's assessment. It leverages React and TypeScript for a robust and maintainable codebase, Vite for a fast development experience, Shadcn UI for pre-styled components, and Tailwind CSS for rapid styling.
 
 ## Included Technologies
 
@@ -12,14 +12,12 @@ This is the frontend project developed for a CredRails assessment. It leverages 
 
 ## Pages & Features
 
-- **Authentication:** Implementation for user login and registration.
-- **Dashboard View:** A dedicated section for authenticated users.
-- **File Upload Page:** Functionality for users to upload files.
-- **File Details Page:** A view to display information about individual uploaded files.
+- **Articles Page:** A page to view all articles.
+- **Article Page:** A page to view a particular article.
 
 ## How to Run the Project
 
-Follow these steps to run the CredRails frontend assessment project locally:
+Follow these steps to run the Xische frontend assessment project locally:
 
 1.  **Clone the Repository:** If you haven't already, clone the project repository to your local machine using Git:
 

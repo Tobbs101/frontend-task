@@ -1,4 +1,4 @@
-import ArticleListContainer from "@/layouts/article-layout";
+import ArticlesListContainer from "@/containers/articles-container";
 import PageLayout from "@/layouts/page-layout";
 
 const Articles = () => {
@@ -7,7 +7,7 @@ const Articles = () => {
       pageTitle="View Articles"
       pageDescription="Have a look at recent articles here..."
     >
-      <ArticleListContainer />
+      <ArticlesListContainer />
     </PageLayout>
   );
 };
